@@ -1,4 +1,11 @@
-import { Image, SafeAreaView, StyleSheet, Text, View,ScrollView } from "react-native";
+import {
+  Image,
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  View,
+  ScrollView,
+} from "react-native";
 import React from "react";
 import FitnessCard from "../components/FitnessCard";
 
@@ -10,8 +17,8 @@ const HomeScreen = () => {
           backgroundColor: "#CD853F",
           padding: 10,
           height: 200,
-                  width: "100%",
-          marginBottom:58
+          width: "100%",
+          marginBottom: 58,
         }}
       >
         <Text style={{ color: "white", fontWeight: "bold", fontSize: 18 }}>
@@ -86,7 +93,7 @@ const HomeScreen = () => {
           />
         </View>
       </View>
-        <FitnessCard />
+      <FitnessCard />
     </ScrollView>
   );
 };
